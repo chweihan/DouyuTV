@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E708BE181D9CF0BD001DD2EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E708BE171D9CF0BD001DD2EA /* AppDelegate.swift */; };
-		E708BE1A1D9CF0BD001DD2EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E708BE191D9CF0BD001DD2EA /* ViewController.swift */; };
 		E708BE1D1D9CF0BD001DD2EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E708BE1B1D9CF0BD001DD2EA /* Main.storyboard */; };
 		E708BE1F1D9CF0BD001DD2EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E708BE1E1D9CF0BD001DD2EA /* Assets.xcassets */; };
 		E708BE221D9CF0BD001DD2EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E708BE201D9CF0BD001DD2EA /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		E708BE141D9CF0BD001DD2EA /* DouyuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouyuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E708BE171D9CF0BD001DD2EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E708BE191D9CF0BD001DD2EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E708BE1C1D9CF0BD001DD2EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E708BE1E1D9CF0BD001DD2EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E708BE211D9CF0BD001DD2EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +95,8 @@
 		E708BE161D9CF0BD001DD2EA /* DouyuTV */ = {
 			isa = PBXGroup;
 			children = (
+				E708BE451D9CF30C001DD2EA /* Classes */,
 				E708BE171D9CF0BD001DD2EA /* AppDelegate.swift */,
-				E708BE191D9CF0BD001DD2EA /* ViewController.swift */,
 				E708BE1B1D9CF0BD001DD2EA /* Main.storyboard */,
 				E708BE1E1D9CF0BD001DD2EA /* Assets.xcassets */,
 				E708BE201D9CF0BD001DD2EA /* LaunchScreen.storyboard */,
@@ -123,6 +121,67 @@
 				E708BE391D9CF0BD001DD2EA /* Info.plist */,
 			);
 			path = DouyuTVUITests;
+			sourceTree = "<group>";
+		};
+		E708BE451D9CF30C001DD2EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E708BE461D9CF30C001DD2EA /* Follow(关注) */,
+				E708BE471D9CF30C001DD2EA /* Home(首页) */,
+				E708BE481D9CF30C001DD2EA /* Live(直播) */,
+				E708BE491D9CF30C001DD2EA /* Main(主要) */,
+				E708BE4A1D9CF30C001DD2EA /* Profile(我的) */,
+				E708BE4B1D9CF30C001DD2EA /* Tools(工具) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E708BE461D9CF30C001DD2EA /* Follow(关注) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Follow(关注)";
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		E708BE471D9CF30C001DD2EA /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Home(首页)";
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E708BE481D9CF30C001DD2EA /* Live(直播) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Live(直播)";
+			path = Live;
+			sourceTree = "<group>";
+		};
+		E708BE491D9CF30C001DD2EA /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Main(主要)";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E708BE4A1D9CF30C001DD2EA /* Profile(我的) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Profile(我的)";
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E708BE4B1D9CF30C001DD2EA /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Tools(工具)";
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +246,7 @@
 		E708BE0C1D9CF0BD001DD2EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WH;
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = cweihan;
@@ -261,7 +321,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E708BE1A1D9CF0BD001DD2EA /* ViewController.swift in Sources */,
 				E708BE181D9CF0BD001DD2EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,8 +471,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DouyuTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cweihan.DouyuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,8 +486,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DouyuTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cweihan.DouyuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
