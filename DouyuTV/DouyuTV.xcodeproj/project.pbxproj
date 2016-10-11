@@ -7,62 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E708BE181D9CF0BD001DD2EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E708BE171D9CF0BD001DD2EA /* AppDelegate.swift */; };
-		E708BE1D1D9CF0BD001DD2EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E708BE1B1D9CF0BD001DD2EA /* Main.storyboard */; };
-		E708BE1F1D9CF0BD001DD2EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E708BE1E1D9CF0BD001DD2EA /* Assets.xcassets */; };
-		E708BE221D9CF0BD001DD2EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E708BE201D9CF0BD001DD2EA /* LaunchScreen.storyboard */; };
-		E708BE2D1D9CF0BD001DD2EA /* DouyuTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E708BE2C1D9CF0BD001DD2EA /* DouyuTVTests.swift */; };
-		E708BE381D9CF0BD001DD2EA /* DouyuTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E708BE371D9CF0BD001DD2EA /* DouyuTVUITests.swift */; };
+		E7E66B331DAC7DBF006CBA8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E66B321DAC7DBF006CBA8A /* AppDelegate.swift */; };
+		E7E66B351DAC7DBF006CBA8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E66B341DAC7DBF006CBA8A /* ViewController.swift */; };
+		E7E66B381DAC7DBF006CBA8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E66B361DAC7DBF006CBA8A /* Main.storyboard */; };
+		E7E66B3A1DAC7DBF006CBA8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E66B391DAC7DBF006CBA8A /* Assets.xcassets */; };
+		E7E66B3D1DAC7DBF006CBA8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E66B3B1DAC7DBF006CBA8A /* LaunchScreen.storyboard */; };
+		E7E66B481DAC7DBF006CBA8A /* DouyuTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E66B471DAC7DBF006CBA8A /* DouyuTVTests.swift */; };
+		E7E66B531DAC7DBF006CBA8A /* DouyuTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E66B521DAC7DBF006CBA8A /* DouyuTVUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E708BE291D9CF0BD001DD2EA /* PBXContainerItemProxy */ = {
+		E7E66B441DAC7DBF006CBA8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E708BE0C1D9CF0BD001DD2EA /* Project object */;
+			containerPortal = E7E66B271DAC7DBF006CBA8A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E708BE131D9CF0BD001DD2EA;
+			remoteGlobalIDString = E7E66B2E1DAC7DBF006CBA8A;
 			remoteInfo = DouyuTV;
 		};
-		E708BE341D9CF0BD001DD2EA /* PBXContainerItemProxy */ = {
+		E7E66B4F1DAC7DBF006CBA8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E708BE0C1D9CF0BD001DD2EA /* Project object */;
+			containerPortal = E7E66B271DAC7DBF006CBA8A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E708BE131D9CF0BD001DD2EA;
+			remoteGlobalIDString = E7E66B2E1DAC7DBF006CBA8A;
 			remoteInfo = DouyuTV;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E708BE141D9CF0BD001DD2EA /* DouyuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouyuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E708BE171D9CF0BD001DD2EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E708BE1C1D9CF0BD001DD2EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E708BE1E1D9CF0BD001DD2EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E708BE211D9CF0BD001DD2EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E708BE231D9CF0BD001DD2EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E708BE281D9CF0BD001DD2EA /* DouyuTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouyuTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E708BE2C1D9CF0BD001DD2EA /* DouyuTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouyuTVTests.swift; sourceTree = "<group>"; };
-		E708BE2E1D9CF0BD001DD2EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E708BE331D9CF0BD001DD2EA /* DouyuTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouyuTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E708BE371D9CF0BD001DD2EA /* DouyuTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouyuTVUITests.swift; sourceTree = "<group>"; };
-		E708BE391D9CF0BD001DD2EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E66B2F1DAC7DBF006CBA8A /* DouyuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouyuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E66B321DAC7DBF006CBA8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7E66B341DAC7DBF006CBA8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7E66B371DAC7DBF006CBA8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7E66B391DAC7DBF006CBA8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7E66B3C1DAC7DBF006CBA8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7E66B3E1DAC7DBF006CBA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E66B431DAC7DBF006CBA8A /* DouyuTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouyuTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E66B471DAC7DBF006CBA8A /* DouyuTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouyuTVTests.swift; sourceTree = "<group>"; };
+		E7E66B491DAC7DBF006CBA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E66B4E1DAC7DBF006CBA8A /* DouyuTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouyuTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E66B521DAC7DBF006CBA8A /* DouyuTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouyuTVUITests.swift; sourceTree = "<group>"; };
+		E7E66B541DAC7DBF006CBA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E708BE111D9CF0BD001DD2EA /* Frameworks */ = {
+		E7E66B2C1DAC7DBF006CBA8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E708BE251D9CF0BD001DD2EA /* Frameworks */ = {
+		E7E66B401DAC7DBF006CBA8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E708BE301D9CF0BD001DD2EA /* Frameworks */ = {
+		E7E66B4B1DAC7DBF006CBA8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,71 +74,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E708BE0B1D9CF0BD001DD2EA = {
+		E7E66B261DAC7DBF006CBA8A = {
 			isa = PBXGroup;
 			children = (
-				E708BE161D9CF0BD001DD2EA /* DouyuTV */,
-				E708BE2B1D9CF0BD001DD2EA /* DouyuTVTests */,
-				E708BE361D9CF0BD001DD2EA /* DouyuTVUITests */,
-				E708BE151D9CF0BD001DD2EA /* Products */,
+				E7E66B311DAC7DBF006CBA8A /* DouyuTV */,
+				E7E66B461DAC7DBF006CBA8A /* DouyuTVTests */,
+				E7E66B511DAC7DBF006CBA8A /* DouyuTVUITests */,
+				E7E66B301DAC7DBF006CBA8A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E708BE151D9CF0BD001DD2EA /* Products */ = {
+		E7E66B301DAC7DBF006CBA8A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E708BE141D9CF0BD001DD2EA /* DouyuTV.app */,
-				E708BE281D9CF0BD001DD2EA /* DouyuTVTests.xctest */,
-				E708BE331D9CF0BD001DD2EA /* DouyuTVUITests.xctest */,
+				E7E66B2F1DAC7DBF006CBA8A /* DouyuTV.app */,
+				E7E66B431DAC7DBF006CBA8A /* DouyuTVTests.xctest */,
+				E7E66B4E1DAC7DBF006CBA8A /* DouyuTVUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E708BE161D9CF0BD001DD2EA /* DouyuTV */ = {
+		E7E66B311DAC7DBF006CBA8A /* DouyuTV */ = {
 			isa = PBXGroup;
 			children = (
-				E708BE451D9CF30C001DD2EA /* Classes */,
-				E708BE171D9CF0BD001DD2EA /* AppDelegate.swift */,
-				E708BE1B1D9CF0BD001DD2EA /* Main.storyboard */,
-				E708BE1E1D9CF0BD001DD2EA /* Assets.xcassets */,
-				E708BE201D9CF0BD001DD2EA /* LaunchScreen.storyboard */,
-				E708BE231D9CF0BD001DD2EA /* Info.plist */,
+				E7E66B671DAC7E28006CBA8A /* Classes */,
+				E7E66B321DAC7DBF006CBA8A /* AppDelegate.swift */,
+				E7E66B341DAC7DBF006CBA8A /* ViewController.swift */,
+				E7E66B361DAC7DBF006CBA8A /* Main.storyboard */,
+				E7E66B391DAC7DBF006CBA8A /* Assets.xcassets */,
+				E7E66B3B1DAC7DBF006CBA8A /* LaunchScreen.storyboard */,
+				E7E66B3E1DAC7DBF006CBA8A /* Info.plist */,
 			);
 			path = DouyuTV;
 			sourceTree = "<group>";
 		};
-		E708BE2B1D9CF0BD001DD2EA /* DouyuTVTests */ = {
+		E7E66B461DAC7DBF006CBA8A /* DouyuTVTests */ = {
 			isa = PBXGroup;
 			children = (
-				E708BE2C1D9CF0BD001DD2EA /* DouyuTVTests.swift */,
-				E708BE2E1D9CF0BD001DD2EA /* Info.plist */,
+				E7E66B471DAC7DBF006CBA8A /* DouyuTVTests.swift */,
+				E7E66B491DAC7DBF006CBA8A /* Info.plist */,
 			);
 			path = DouyuTVTests;
 			sourceTree = "<group>";
 		};
-		E708BE361D9CF0BD001DD2EA /* DouyuTVUITests */ = {
+		E7E66B511DAC7DBF006CBA8A /* DouyuTVUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E708BE371D9CF0BD001DD2EA /* DouyuTVUITests.swift */,
-				E708BE391D9CF0BD001DD2EA /* Info.plist */,
+				E7E66B521DAC7DBF006CBA8A /* DouyuTVUITests.swift */,
+				E7E66B541DAC7DBF006CBA8A /* Info.plist */,
 			);
 			path = DouyuTVUITests;
 			sourceTree = "<group>";
 		};
-		E708BE451D9CF30C001DD2EA /* Classes */ = {
+		E7E66B671DAC7E28006CBA8A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E708BE461D9CF30C001DD2EA /* Follow(关注) */,
-				E708BE471D9CF30C001DD2EA /* Home(首页) */,
-				E708BE481D9CF30C001DD2EA /* Live(直播) */,
-				E708BE491D9CF30C001DD2EA /* Main(主要) */,
-				E708BE4A1D9CF30C001DD2EA /* Profile(我的) */,
-				E708BE4B1D9CF30C001DD2EA /* Tools(工具) */,
+				E7E66B6D1DAC7E28006CBA8A /* Tools(工具) */,
+				E7E66B6B1DAC7E28006CBA8A /* Main(主要) */,
+				E7E66B691DAC7E28006CBA8A /* Home(首页) */,
+				E7E66B6A1DAC7E28006CBA8A /* Live(直播) */,
+				E7E66B681DAC7E28006CBA8A /* Follow(关注) */,
+				E7E66B6C1DAC7E28006CBA8A /* Profile(我的) */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		E708BE461D9CF30C001DD2EA /* Follow(关注) */ = {
+		E7E66B681DAC7E28006CBA8A /* Follow(关注) */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -144,7 +147,7 @@
 			path = Follow;
 			sourceTree = "<group>";
 		};
-		E708BE471D9CF30C001DD2EA /* Home(首页) */ = {
+		E7E66B691DAC7E28006CBA8A /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -152,7 +155,7 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		E708BE481D9CF30C001DD2EA /* Live(直播) */ = {
+		E7E66B6A1DAC7E28006CBA8A /* Live(直播) */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -160,7 +163,7 @@
 			path = Live;
 			sourceTree = "<group>";
 		};
-		E708BE491D9CF30C001DD2EA /* Main(主要) */ = {
+		E7E66B6B1DAC7E28006CBA8A /* Main(主要) */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -168,7 +171,7 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		E708BE4A1D9CF30C001DD2EA /* Profile(我的) */ = {
+		E7E66B6C1DAC7E28006CBA8A /* Profile(我的) */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -176,7 +179,7 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		E708BE4B1D9CF30C001DD2EA /* Tools(工具) */ = {
+		E7E66B6D1DAC7E28006CBA8A /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -187,13 +190,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E708BE131D9CF0BD001DD2EA /* DouyuTV */ = {
+		E7E66B2E1DAC7DBF006CBA8A /* DouyuTV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E708BE3C1D9CF0BD001DD2EA /* Build configuration list for PBXNativeTarget "DouyuTV" */;
+			buildConfigurationList = E7E66B571DAC7DBF006CBA8A /* Build configuration list for PBXNativeTarget "DouyuTV" */;
 			buildPhases = (
-				E708BE101D9CF0BD001DD2EA /* Sources */,
-				E708BE111D9CF0BD001DD2EA /* Frameworks */,
-				E708BE121D9CF0BD001DD2EA /* Resources */,
+				E7E66B2B1DAC7DBF006CBA8A /* Sources */,
+				E7E66B2C1DAC7DBF006CBA8A /* Frameworks */,
+				E7E66B2D1DAC7DBF006CBA8A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -201,75 +204,75 @@
 			);
 			name = DouyuTV;
 			productName = DouyuTV;
-			productReference = E708BE141D9CF0BD001DD2EA /* DouyuTV.app */;
+			productReference = E7E66B2F1DAC7DBF006CBA8A /* DouyuTV.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E708BE271D9CF0BD001DD2EA /* DouyuTVTests */ = {
+		E7E66B421DAC7DBF006CBA8A /* DouyuTVTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E708BE3F1D9CF0BD001DD2EA /* Build configuration list for PBXNativeTarget "DouyuTVTests" */;
+			buildConfigurationList = E7E66B5A1DAC7DBF006CBA8A /* Build configuration list for PBXNativeTarget "DouyuTVTests" */;
 			buildPhases = (
-				E708BE241D9CF0BD001DD2EA /* Sources */,
-				E708BE251D9CF0BD001DD2EA /* Frameworks */,
-				E708BE261D9CF0BD001DD2EA /* Resources */,
+				E7E66B3F1DAC7DBF006CBA8A /* Sources */,
+				E7E66B401DAC7DBF006CBA8A /* Frameworks */,
+				E7E66B411DAC7DBF006CBA8A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E708BE2A1D9CF0BD001DD2EA /* PBXTargetDependency */,
+				E7E66B451DAC7DBF006CBA8A /* PBXTargetDependency */,
 			);
 			name = DouyuTVTests;
 			productName = DouyuTVTests;
-			productReference = E708BE281D9CF0BD001DD2EA /* DouyuTVTests.xctest */;
+			productReference = E7E66B431DAC7DBF006CBA8A /* DouyuTVTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E708BE321D9CF0BD001DD2EA /* DouyuTVUITests */ = {
+		E7E66B4D1DAC7DBF006CBA8A /* DouyuTVUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E708BE421D9CF0BD001DD2EA /* Build configuration list for PBXNativeTarget "DouyuTVUITests" */;
+			buildConfigurationList = E7E66B5D1DAC7DBF006CBA8A /* Build configuration list for PBXNativeTarget "DouyuTVUITests" */;
 			buildPhases = (
-				E708BE2F1D9CF0BD001DD2EA /* Sources */,
-				E708BE301D9CF0BD001DD2EA /* Frameworks */,
-				E708BE311D9CF0BD001DD2EA /* Resources */,
+				E7E66B4A1DAC7DBF006CBA8A /* Sources */,
+				E7E66B4B1DAC7DBF006CBA8A /* Frameworks */,
+				E7E66B4C1DAC7DBF006CBA8A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E708BE351D9CF0BD001DD2EA /* PBXTargetDependency */,
+				E7E66B501DAC7DBF006CBA8A /* PBXTargetDependency */,
 			);
 			name = DouyuTVUITests;
 			productName = DouyuTVUITests;
-			productReference = E708BE331D9CF0BD001DD2EA /* DouyuTVUITests.xctest */;
+			productReference = E7E66B4E1DAC7DBF006CBA8A /* DouyuTVUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E708BE0C1D9CF0BD001DD2EA /* Project object */ = {
+		E7E66B271DAC7DBF006CBA8A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = WH;
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = cweihan;
 				TargetAttributes = {
-					E708BE131D9CF0BD001DD2EA = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-					};
-					E708BE271D9CF0BD001DD2EA = {
+					E7E66B2E1DAC7DBF006CBA8A = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 3596LNP7HE;
 						ProvisioningStyle = Automatic;
-						TestTargetID = E708BE131D9CF0BD001DD2EA;
 					};
-					E708BE321D9CF0BD001DD2EA = {
+					E7E66B421DAC7DBF006CBA8A = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 3596LNP7HE;
 						ProvisioningStyle = Automatic;
-						TestTargetID = E708BE131D9CF0BD001DD2EA;
+						TestTargetID = E7E66B2E1DAC7DBF006CBA8A;
+					};
+					E7E66B4D1DAC7DBF006CBA8A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3596LNP7HE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E7E66B2E1DAC7DBF006CBA8A;
 					};
 				};
 			};
-			buildConfigurationList = E708BE0F1D9CF0BD001DD2EA /* Build configuration list for PBXProject "DouyuTV" */;
+			buildConfigurationList = E7E66B2A1DAC7DBF006CBA8A /* Build configuration list for PBXProject "DouyuTV" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -277,37 +280,37 @@
 				en,
 				Base,
 			);
-			mainGroup = E708BE0B1D9CF0BD001DD2EA;
-			productRefGroup = E708BE151D9CF0BD001DD2EA /* Products */;
+			mainGroup = E7E66B261DAC7DBF006CBA8A;
+			productRefGroup = E7E66B301DAC7DBF006CBA8A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E708BE131D9CF0BD001DD2EA /* DouyuTV */,
-				E708BE271D9CF0BD001DD2EA /* DouyuTVTests */,
-				E708BE321D9CF0BD001DD2EA /* DouyuTVUITests */,
+				E7E66B2E1DAC7DBF006CBA8A /* DouyuTV */,
+				E7E66B421DAC7DBF006CBA8A /* DouyuTVTests */,
+				E7E66B4D1DAC7DBF006CBA8A /* DouyuTVUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E708BE121D9CF0BD001DD2EA /* Resources */ = {
+		E7E66B2D1DAC7DBF006CBA8A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E708BE221D9CF0BD001DD2EA /* LaunchScreen.storyboard in Resources */,
-				E708BE1F1D9CF0BD001DD2EA /* Assets.xcassets in Resources */,
-				E708BE1D1D9CF0BD001DD2EA /* Main.storyboard in Resources */,
+				E7E66B3D1DAC7DBF006CBA8A /* LaunchScreen.storyboard in Resources */,
+				E7E66B3A1DAC7DBF006CBA8A /* Assets.xcassets in Resources */,
+				E7E66B381DAC7DBF006CBA8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E708BE261D9CF0BD001DD2EA /* Resources */ = {
+		E7E66B411DAC7DBF006CBA8A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E708BE311D9CF0BD001DD2EA /* Resources */ = {
+		E7E66B4C1DAC7DBF006CBA8A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,58 +320,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E708BE101D9CF0BD001DD2EA /* Sources */ = {
+		E7E66B2B1DAC7DBF006CBA8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E708BE181D9CF0BD001DD2EA /* AppDelegate.swift in Sources */,
+				E7E66B351DAC7DBF006CBA8A /* ViewController.swift in Sources */,
+				E7E66B331DAC7DBF006CBA8A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E708BE241D9CF0BD001DD2EA /* Sources */ = {
+		E7E66B3F1DAC7DBF006CBA8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E708BE2D1D9CF0BD001DD2EA /* DouyuTVTests.swift in Sources */,
+				E7E66B481DAC7DBF006CBA8A /* DouyuTVTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E708BE2F1D9CF0BD001DD2EA /* Sources */ = {
+		E7E66B4A1DAC7DBF006CBA8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E708BE381D9CF0BD001DD2EA /* DouyuTVUITests.swift in Sources */,
+				E7E66B531DAC7DBF006CBA8A /* DouyuTVUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E708BE2A1D9CF0BD001DD2EA /* PBXTargetDependency */ = {
+		E7E66B451DAC7DBF006CBA8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E708BE131D9CF0BD001DD2EA /* DouyuTV */;
-			targetProxy = E708BE291D9CF0BD001DD2EA /* PBXContainerItemProxy */;
+			target = E7E66B2E1DAC7DBF006CBA8A /* DouyuTV */;
+			targetProxy = E7E66B441DAC7DBF006CBA8A /* PBXContainerItemProxy */;
 		};
-		E708BE351D9CF0BD001DD2EA /* PBXTargetDependency */ = {
+		E7E66B501DAC7DBF006CBA8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E708BE131D9CF0BD001DD2EA /* DouyuTV */;
-			targetProxy = E708BE341D9CF0BD001DD2EA /* PBXContainerItemProxy */;
+			target = E7E66B2E1DAC7DBF006CBA8A /* DouyuTV */;
+			targetProxy = E7E66B4F1DAC7DBF006CBA8A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E708BE1B1D9CF0BD001DD2EA /* Main.storyboard */ = {
+		E7E66B361DAC7DBF006CBA8A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E708BE1C1D9CF0BD001DD2EA /* Base */,
+				E7E66B371DAC7DBF006CBA8A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E708BE201D9CF0BD001DD2EA /* LaunchScreen.storyboard */ = {
+		E7E66B3B1DAC7DBF006CBA8A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E708BE211D9CF0BD001DD2EA /* Base */,
+				E7E66B3C1DAC7DBF006CBA8A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -376,7 +380,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E708BE3A1D9CF0BD001DD2EA /* Debug */ = {
+		E7E66B551DAC7DBF006CBA8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -425,7 +429,7 @@
 			};
 			name = Debug;
 		};
-		E708BE3B1D9CF0BD001DD2EA /* Release */ = {
+		E7E66B561DAC7DBF006CBA8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -467,14 +471,13 @@
 			};
 			name = Release;
 		};
-		E708BE3D1D9CF0BD001DD2EA /* Debug */ = {
+		E7E66B581DAC7DBF006CBA8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3596LNP7HE;
 				INFOPLIST_FILE = DouyuTV/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cweihan.DouyuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,14 +485,13 @@
 			};
 			name = Debug;
 		};
-		E708BE3E1D9CF0BD001DD2EA /* Release */ = {
+		E7E66B591DAC7DBF006CBA8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3596LNP7HE;
 				INFOPLIST_FILE = DouyuTV/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cweihan.DouyuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -497,7 +499,7 @@
 			};
 			name = Release;
 		};
-		E708BE401D9CF0BD001DD2EA /* Debug */ = {
+		E7E66B5B1DAC7DBF006CBA8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -512,7 +514,7 @@
 			};
 			name = Debug;
 		};
-		E708BE411D9CF0BD001DD2EA /* Release */ = {
+		E7E66B5C1DAC7DBF006CBA8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -527,7 +529,7 @@
 			};
 			name = Release;
 		};
-		E708BE431D9CF0BD001DD2EA /* Debug */ = {
+		E7E66B5E1DAC7DBF006CBA8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -541,7 +543,7 @@
 			};
 			name = Debug;
 		};
-		E708BE441D9CF0BD001DD2EA /* Release */ = {
+		E7E66B5F1DAC7DBF006CBA8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -558,40 +560,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E708BE0F1D9CF0BD001DD2EA /* Build configuration list for PBXProject "DouyuTV" */ = {
+		E7E66B2A1DAC7DBF006CBA8A /* Build configuration list for PBXProject "DouyuTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E708BE3A1D9CF0BD001DD2EA /* Debug */,
-				E708BE3B1D9CF0BD001DD2EA /* Release */,
+				E7E66B551DAC7DBF006CBA8A /* Debug */,
+				E7E66B561DAC7DBF006CBA8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E708BE3C1D9CF0BD001DD2EA /* Build configuration list for PBXNativeTarget "DouyuTV" */ = {
+		E7E66B571DAC7DBF006CBA8A /* Build configuration list for PBXNativeTarget "DouyuTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E708BE3D1D9CF0BD001DD2EA /* Debug */,
-				E708BE3E1D9CF0BD001DD2EA /* Release */,
+				E7E66B581DAC7DBF006CBA8A /* Debug */,
+				E7E66B591DAC7DBF006CBA8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		E708BE3F1D9CF0BD001DD2EA /* Build configuration list for PBXNativeTarget "DouyuTVTests" */ = {
+		E7E66B5A1DAC7DBF006CBA8A /* Build configuration list for PBXNativeTarget "DouyuTVTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E708BE401D9CF0BD001DD2EA /* Debug */,
-				E708BE411D9CF0BD001DD2EA /* Release */,
+				E7E66B5B1DAC7DBF006CBA8A /* Debug */,
+				E7E66B5C1DAC7DBF006CBA8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		E708BE421D9CF0BD001DD2EA /* Build configuration list for PBXNativeTarget "DouyuTVUITests" */ = {
+		E7E66B5D1DAC7DBF006CBA8A /* Build configuration list for PBXNativeTarget "DouyuTVUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E708BE431D9CF0BD001DD2EA /* Debug */,
-				E708BE441D9CF0BD001DD2EA /* Release */,
+				E7E66B5E1DAC7DBF006CBA8A /* Debug */,
+				E7E66B5F1DAC7DBF006CBA8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E708BE0C1D9CF0BD001DD2EA /* Project object */;
+	rootObject = E7E66B271DAC7DBF006CBA8A /* Project object */;
 }

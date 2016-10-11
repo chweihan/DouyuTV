@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  DouyuTV
 //
-//  Created by 陈伟涵 on 16/9/29.
+//  Created by 陈伟涵 on 2016/10/11.
 //  Copyright © 2016年 cweihan. All rights reserved.
 //
 
