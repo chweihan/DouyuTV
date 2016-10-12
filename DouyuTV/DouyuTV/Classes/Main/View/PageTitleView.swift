@@ -16,12 +16,19 @@ class PageTitleView: UIView {
     var titles : [String]
     
     // MARK:- 懒加载属性
+    lazy var titleLabes : [UILabel] = [UILabel]()
     lazy var scrollView : UIScrollView = {
         let scrollView = UIScrollView()
         scrollView.showsHorizontalScrollIndicator = false
         scrollView.scrollsToTop = false
         scrollView.bounces = false
         return scrollView
+    }()
+    
+    lazy var scrollLine : UIView = {
+        let scrollLine = UIView()
+        scrollLine.backgroundColor = UIColor.orange
+        return scrollLine
     }()
     
     // MARK:- 自定义构造函数
@@ -49,6 +56,9 @@ extension PageTitleView {
         
         //添加title对应的Label
         setupTitleLabels()
+        
+        //设置底线和滚动的滑块
+        setupBottomMenuAndScrollLine()
     }
     
     private func setupTitleLabels() {
@@ -74,7 +84,28 @@ extension PageTitleView {
             
             //将label添加到scrollView中
             scrollView.addSubview(label)
+            titleLabes.append(label)
         }
+    }
+    
+    private func setupBottomMenuAndScrollLine() {
+        //添加底线
+        let bottomLine = UIView()
+        bottomLine.backgroundColor = UIColor.lightGray
+        let LineH : CGFloat = 0.5
+        bottomLine.frame = CGRect(x: 0, y: frame.height, width: frame.width, height: LineH)
+        addSubview(bottomLine)
+        
+        //添加scrollLine
+        guard let firstLabel = titleLabes.first else {
+            return
+        }
+        firstLabel.textColor = UIColor.orange
+        
+        //设置scrollLine的属性
+        scrollView.addSubview(scrollLine)
+        scrollLine.frame = CGRect(x: firstLabel.frame.origin.x, y: frame.height - kScrollLineH, width: firstLabel.frame.width, height: kScrollLineH)
+        
     }
 }
 
